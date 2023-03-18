@@ -1,0 +1,24 @@
+table{
+    text-align: center;
+    width: 20em;
+    height: 20em;
+    /* border: 2px solid red; */
+}
+
+table th{
+    background-color: rgb(80, 99, 99);
+}
+
+.leaderboard{
+    overflow-y: scroll ;
+}
+
+.container-leaderboard h2{
+    margin: 10px;
+    color: cyan;
+    text-align: center;
+}
+
+.container-leaderboard{
+    width: 35em;
+}

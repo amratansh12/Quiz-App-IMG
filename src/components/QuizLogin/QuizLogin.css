@@ -1,0 +1,23 @@
+.container-quiz-options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.grid-item{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #aefff0;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.5s;
+}
+
+.grid-item:hover{
+    scale: 1.1;
+    box-shadow: 2px 2px 5px black;
+}

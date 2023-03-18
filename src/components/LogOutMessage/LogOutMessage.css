@@ -1,0 +1,20 @@
+.logOutMess{
+    font-style: italic;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.container-logout{
+    width: 30rem;
+}
+
+.container-logout #successOut{
+    margin: 15px 0;
+    color:rgb(150, 95, 160);
+}
+
+#revisit{
+    margin: 15px 0;
+    text-decoration: none;
+    color:rgb(119, 180, 182);
+}

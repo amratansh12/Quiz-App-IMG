@@ -1,0 +1,59 @@
+.quizArea{
+    padding: 15px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 30em;
+    color: white;
+    border-radius: 15px;
+    width: 50vw;
+    margin: 5em auto;
+    background: linear-gradient(to right, #26465e, #141914 );
+}
+
+.questionArea{
+    width: 75%;
+}
+
+.quizArea p{
+    margin: 10px 0;
+}
+
+.options{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.choices{
+    border-radius: 10px;
+    padding: 9px;
+    background-color: #445661ab;
+    margin: 5px 0;
+}
+
+.choices label{
+    margin: 0 5px;
+}
+
+.invitation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.invitation input{
+    width: 270px;
+    height: 20px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.invitation label{
+    color: orange;
+    font-size: 20px;
+}
